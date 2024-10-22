@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow</title>
+    <style>
+        .container{
+            width: 500px;
+            height: 100px;
+            background-color:rgb(22, 11, 243);
+            box-shadow: 10px 10px red;
+        }
+        @media screen and (width <= 600px){
+            .container{
+                box-shadow: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
